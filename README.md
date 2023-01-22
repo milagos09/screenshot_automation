@@ -3,7 +3,7 @@ Screenshot automation script
 This script allows you to automatically take a screenshot of a specific element on a webpage. It uses the puppeteer library to automate the process of taking screenshots. It also uses the readline library to get the input from the user.
 Installation and Setup
 
-    Make sure you have Node.js installed on your machine. You can download it from here
+    Make sure you have Node.js installed on your machine. You can download it from https://nodejs.org/en/download/
 
     Clone or download the repository to your local machine.
 
@@ -32,9 +32,7 @@ Enter element (e.g. #elementId, .className): table
 
 Note
 
-    The script is set to take a screenshot of the visible area of the element, if you want to take a screenshot of the entire element, you can use the method .boundingBox() to get the dimensions of the element and pass them to the .screenshot() method.
-    Make sure that you are running the script from the root directory of the project.
-    You can customize the script as per your need, but make sure that you have the correct dependencies installed.
+    The script is set to take a screenshot of the visible area of the element, if you want to take a screenshot of the entire element, you can input "html".
 
 Additional Information
 
