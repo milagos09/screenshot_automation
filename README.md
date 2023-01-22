@@ -19,7 +19,7 @@ Usage
 
     Run the script by executing the following command:
 
-node filename.js
+node index.js
 
     The script will prompt you to enter a URL and an element.
 
